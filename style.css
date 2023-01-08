@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+    font-family: sans-serif;
+    
+}
+nav#cabecalho {
+    height: 80px;
+    background-color: #006491 !important;
+/*Afastar o cabeçalho das laterais da página*/
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+    box-shadow: 05px 05px 05px  #606060;
+}
+
+nav#cabecalho img{
+    margin-left: 50px;
+    padding: 5px;
+}
+
+nav#cabecalho div#menu-top {
+    display: block;
+}
+
+nav#cabecalho div#menu-top ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13px;
+    left: 475px;
+}
+
+nav#cabecalho div#menu-top li {
+    font-size: 20px;
+    color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    transition: background-color 1s;
+}
+
+nav#cabecalho div#icons {
+    position: absolute;
+    width: 30%;
+    top: 25px;
+    left: 1080px;
+    color: #dadada;
+    margin: 15px;
+    
+}
